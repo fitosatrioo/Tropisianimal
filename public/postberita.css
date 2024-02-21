@@ -1,0 +1,237 @@
+html, body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --div-height: 85vh;
+    --bg-size: 100% 100%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.navbar {
+    font-family: poppins;
+    font-size: 16px;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+#banner1 {
+    background: url('assets/x2/pascal-muller-iSz0IMtulos-unsplash@2x.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.center_div .top_div {
+    height: calc(var(--div-height));
+}
+
+.center_div .bottom_first_div {
+    height: calc(var(--div-height) - 55vh);
+}
+
+.center_div .bottom_sec_div {
+    height: calc(var(--div-height) - 50vh);
+}
+
+.masthead {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: 8rem;
+    background: no-repeat center center;
+    background-color: #6c757d;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#bannertentang {
+    background-image: url('assets/x2/pascal-muller-iSz0IMtulos-unsplash@2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.container #titlebanner h1 {
+    font-family: poppinsbold;
+    font-size: 60px;
+    color: white;
+}
+
+.container #titlebanner p {
+    font-family: poppinskecil;
+    font-size: 15px;
+    color: white;
+    justify-content: left;
+    padding-top: 0.5rem;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.container #titlebag1 h4 {
+    font-family: poppinsbold;
+    color: green;
+}
+
+.container #titlebag1 h1 {
+    font-family: poppinsbold;
+    font-size: 45px;
+    color: black;
+}
+
+.container #titlebag1 h6 {
+    font-family: poppins;
+    font-size: 16px;
+    color: black;
+}
+
+.container .center_div #sec1pict1 {
+    height: 200px;
+    width: 270px;
+}
+
+.container #sec1pict2 {
+    height: 265px;
+    width: 555px;
+}
+
+.container #newspict1 {
+    height: 450px;
+    width: 462px;
+}
+
+.container #newspict2 {
+    height: 178px;
+    width: 300px;
+}
+
+.container #newspict3 {
+    padding-top: 1.7rem;
+    height: 272px;
+    width: 285px;
+}
+
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px black;
+    -moz-box-shadow: -1px 9px 40px -12px black;
+    box-shadow: -1px 9px 40px -12px black;
+
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+#banner2 {
+    background-image: url('assets/x2/juliana-castro-LdEZjO3wjqQ-unsplash@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 90vh; */
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.container #titlebag2 {
+    font-family: poppinsbold;
+    font-size: 25px;
+    color: white;
+    padding-top: 5rem;
+}
+
+.dot {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(0, 138, 11);
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.dot svg {
+    margin-top: 1.2rem;
+}
+
+.container #titlecard1 h1 {
+    font-family: poppinsbold;
+    font-size: 20px;
+    color: black;
+}
+
+.container #titlecard1 p {
+    font-family: poppinskecil;
+    font-size: 15px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.container #titlebag3 h4 {
+    font-family: poppinsbold;
+    color: green;
+}
+
+.container #titlebag3 h1 {
+    font-family: poppinsbold;
+    font-size: 45px;
+}
+
+.container #titlecard2 h1 {
+    font-family: poppinsbold;
+    font-size: 19px;
+    color: black;
+}
+
+.container #titlecard2 p {
+    font-family: poppins;
+    font-size: 15px;
+    color: grey;
+}
+
+.container #imgcard2 {
+    width: 354px;
+    height: 214px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.container #titlebag4 h4 {
+    font-family: poppinsbold;
+    color: green;
+}
+
+.container #titlebag4 h1 {
+    font-family: poppinsbold;
+    font-size: 45px;
+}
+
+#owl .imgcarousel img {
+    width: 340px;
+    height: 300px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.galeri1 {
+    width: 261px;
+    height: 178px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+#puter {
+    padding-top: rem;
+}
+
+.list-unstyled {
+    font-family: poppins;
+    color: white;
+    font-size: 15px;
+}
+
+.bottom-footer {
+    font-family: poppins;
+    color: grey;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////////////////////////////////////////////////////////////// */

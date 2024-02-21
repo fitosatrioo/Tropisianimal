@@ -1,0 +1,152 @@
+/* HP LANDSCAPE */
+@media screen and (max-width: 576px) {
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) and (min-width: 577px) {
+   /* #galeri{
+       margin-left: 1000px;
+   } */
+}
+
+/* DEKSTOPS */
+@media screen and (max-width: 992px) {
+}
+
+/* XL DEKSTOP */
+@media screen and (max-width: 1200px) {
+}
+
+
+@font-face {
+    font-family: poppinsbold;
+    src: url("assets/font/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("assets/font/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: poppinskecil;
+    src: url("assets/font/Poppins-Light.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#halo {
+    margin-left: 8rem;
+}
+/* NAVBAR */
+.navbar {
+    font-family: poppins;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.nav-link{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 13px;
+    transition: color 0,3s ease;
+    display: inline-block;
+}
+
+.navbarnav {
+    color: white;
+    font-family: poppins;
+}
+
+/* NAVBAR END */
+
+/* BAGIAN 1*/
+.banner-image {
+    background-image: url("assets/x1/pascal-muller-iSz0IMtulos-unsplash.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.judul1 {
+    font-family: poppinsbold;
+    color: white;
+    font-size: 50px;
+}
+
+.judul2 {
+    color: white;
+    font-family: poppinskecil;
+    /* font-size: ; */
+}
+/* BAGIAN 1 END */
+
+/* BAGIAN 2 */
+.judulbag2 {
+    font-family: poppinsbold;
+    color: black;
+}
+
+.isi1 {
+    font-family: poppins;
+    color: black;
+}
+
+.isi2 {
+    font-family: poppins;
+    color: black;
+}
+
+#satu {
+    padding-right: 1rem;
+}
+
+#tiga {
+    padding-top: 1rem;
+    width: 540px;
+}
+
+#colsatu {
+    padding-top: 2rem;
+}
+
+.btn {
+    font-family: poppins;
+}
+/* BAGIAN 2 END */
+
+/* GALERI */
+    .galeri1{
+        width: 261px;
+        height: 178px;
+    }
+/* GALERI */
+
+/* FOOTER */
+#puter {
+    padding-top: rem;
+}
+
+.list-unstyled {
+    font-family: poppins;
+    color: white;
+    font-size: 15px;
+}
+
+.bottom-footer {
+    font-family: poppins;
+    color: grey;
+}
+/* FOOTER END */

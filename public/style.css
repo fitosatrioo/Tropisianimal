@@ -1,0 +1,469 @@
+@font-face {
+    font-family: poppinsbold;
+    src: url("assets/font/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("assets/font/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: poppinskecil;
+    src: url("assets/font/Poppins-Light.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --div-height: 85vh;
+    --bg-size: 100% 100%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.navbar {
+    font-family: poppins;
+    font-size: 16px;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+#banner1 {
+    background: url('assets/x2/pascal-muller-iSz0IMtulos-unsplash@2x.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.center_div .top_div {
+    height: calc(var(--div-height));
+}
+
+.center_div .bottom_first_div {
+    height: calc(var(--div-height) - 55vh);
+}
+
+.center_div .bottom_sec_div {
+    height: calc(var(--div-height) - 50vh);
+}
+
+.masthead {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: 8rem;
+    background: no-repeat center center;
+    background-color: #6c757d;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#bannertentang {
+    background-image: url('assets/x2/pascal-muller-iSz0IMtulos-unsplash@2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.container #titlebanner h1 {
+    font-family: poppinsbold;
+    font-size: 60px;
+    color: white;
+}
+
+.container #titlebanner p {
+    font-family: poppinskecil;
+    font-size: 15px;
+    color: white;
+    justify-content: left;
+    padding-top: 0.5rem;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.container #titlebag1 h4 {
+    font-family: poppinsbold;
+    color: green;
+}
+
+.container #titlebag1 h1 {
+    font-family: poppinsbold;
+    font-size: 45px;
+    color: black;
+}
+
+.container #titlebag1 h6 {
+    font-family: poppins;
+    font-size: 16px;
+    color: black;
+}
+
+.container .center_div #sec1pict1 {
+    height: 200px;
+    width: 270px;
+}
+
+.container #sec1pict2 {
+    height: 265px;
+    width: 555px;
+}
+
+.container #newspict1 {
+    height: 450px;
+    width: 462px;
+}
+
+.container #newspict2 {
+    height: 178px;
+    width: 300px;
+}
+
+.container #newspict3 {
+    padding-top: 1.7rem;
+    height: 272px;
+    width: 285px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+#banner2 {
+    background-image: url('assets/x2/juliana-castro-LdEZjO3wjqQ-unsplash@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 90vh; */
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.container #titlebag2 {
+    font-family: poppinsbold;
+    font-size: 25px;
+    color: white;
+    padding-top: 5rem;
+}
+
+.dot {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(0, 138, 11);
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.dot svg {
+    margin-top: 1.2rem;
+}
+
+.container #titlecard1 h1 {
+    font-family: poppinsbold;
+    font-size: 20px;
+    color: black;
+}
+
+.container #titlecard1 p {
+    font-family: poppinskecil;
+    font-size: 15px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.container #titlebag3 h4 {
+    font-family: poppinsbold;
+    color: green;
+}
+
+.container #titlebag3 h1 {
+    font-family: poppinsbold;
+    font-size: 45px;
+}
+
+.container #titlecard2 h1 {
+    font-family: poppinsbold;
+    font-size: 19px;
+    color: black;
+}
+
+.container #titlecard2 p {
+    font-family: poppins;
+    font-size: 15px;
+    color: grey;
+}
+
+.container #imgcard2 {
+    width: 354px;
+    height: 214px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.container #titlebag4 h4 {
+    font-family: poppinsbold;
+    color: green;
+}
+
+.container #titlebag4 h1 {
+    font-family: poppinsbold;
+    font-size: 45px;
+}
+
+#owl .imgcarousel img {
+    width: 340px;
+    height: 300px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.galeri1 {
+    width: 261px;
+    height: 178px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+#puter {
+    padding-top: rem;
+}
+
+.list-unstyled {
+    font-family: poppins;
+    color: grey;
+    font-size: 15px;
+}
+
+.bottom-footer {
+    font-family: poppins;
+    color: white;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+   
+    
+}
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#halo {
+    margin-left: 8rem;
+}
+/* NAVBAR */
+.navbar {
+    font-family: poppins;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.navbar-nav {
+    color: white;
+    font-family: poppins;
+    /* margin: 0 40px; */
+    /* margin-left: 25px; */
+}
+
+.nav-link{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 13px;
+    transition: color 0,3s ease;
+    display: inline-block;
+}
+
+/* NAVBAR END */
+
+/* BAGIAN 1*/
+.banner-image {
+    background-image: url("assets/x1/pascal-muller-iSz0IMtulos-unsplash.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+   
+
+    
+ 
+}
+
+.judul1 {
+    font-family: poppinsbold;
+    color: white;
+    font-size: 70px;
+}
+
+.judul2 {
+    color: white;
+    /* font-family: poppinsmedium; */
+    /* font-size: ; */
+}
+
+.text-1{
+    font-size: 15px;
+  color: white;
+  font-family: poppins;
+   
+}
+/* BAGIAN 1 END */
+
+/* BAGIAN 2 */
+.judulbag2 {
+    font-family: poppinsbold;
+    color: black;
+}
+
+.isi1 {
+    font-family: poppins;
+    color: black;
+}
+
+.isi2 {
+    font-family: poppins;
+    color: black;
+}
+
+#satu {
+    padding-right: 1rem;
+}
+
+#tiga {
+    padding-top: 1rem;
+    width: 540px;
+}
+
+#colsatu {
+    padding-top: 2rem;
+}
+
+.text-2{
+    font-size: 15px;
+    /* font-weight: 600; */
+    margin-left: -3;
+    color: rgb(53, 53, 53);
+    font-family: poppinsbold;
+    
+}
+
+.btn {
+    font-family: poppins;
+    /* width: 230px;
+    height: 55px; */
+}
+/* BAGIAN 2 END */
+
+/* BAGIAN 3 */
+.background2 {
+    background-image: url("assets/x1/bg2.png");
+    margin-top: 5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.judulbag3 {
+    font-family: poppinsbold;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    
+}
+
+.card {
+    padding-top: 10px;
+}
+
+#card1 {
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+/* .dot {
+    height: 68px;
+    width: 60px;
+    background-color: rgb(0, 138, 11);
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.dot svg {
+    margin-top: 0.5rem;
+    width: 40px;
+} */
+
+.card-title {
+    font-family: poppinsbold;
+    /* font-size: 25px; */
+}
+
+.card-text {
+    font-family: poppins;
+    color: rgb(155, 154, 154);
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.ijo {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* BAGIAN 3 END */
+
+/* BAGIAN 4 */
+.gmbr {
+    width: 356px;
+}
+.card-title2 {
+    font-family: poppinsbold;
+    font-size: 18px;
+    /* font-weight: bold; */
+    margin-top: 1.5rem;
+}
+
+.card-body2 {
+    background-color: rgb(243, 242, 242);
+    
+}
+
+.card-text2 {
+    font-family: poppins;
+    color: rgb(155, 154, 154);
+    font-size: 14px;
+    padding-bottom: 1.5rem;
+}
+/* BAGIAN 4 END */
+
+/* BAGIAN 5 */
+.carousel-item {
+    height: 25rem;
+    background-color: grey;
+}
+
+/* .aditbabi {
+    width: 279px;
+    height: 279px;
+} */
+
+.container .button {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+}
+/* BAGIAN 5 END */
+
+/* FOOTER */
+
+/* FOOTER END */
